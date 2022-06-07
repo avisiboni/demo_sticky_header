@@ -5,14 +5,18 @@
 <!-- Auto Generated Below -->
 
 
-## Properties
+## Dependencies
 
-| Property | Attribute | Description     | Type     | Default     |
-| -------- | --------- | --------------- | -------- | ----------- |
-| `first`  | `first`   | The first name  | `string` | `undefined` |
-| `last`   | `last`    | The last name   | `string` | `undefined` |
-| `middle` | `middle`  | The middle name | `string` | `undefined` |
+### Depends on
 
+- [app-button](../app-button)
+
+### Graph
+```mermaid
+graph TD;
+  app-header --> app-button
+  style app-header fill:#f9f,stroke:#333,stroke-width:4px
+```
 
 ----------------------------------------------
 

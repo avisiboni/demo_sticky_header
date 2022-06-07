@@ -13,6 +13,10 @@ export namespace Components {
     interface AppHeader {
     }
 }
+export interface AppButtonCustomEvent<T> extends CustomEvent<T> {
+    detail: T;
+    target: HTMLAppButtonElement;
+}
 declare global {
     interface HTMLAppButtonElement extends Components.AppButton, HTMLStencilElement {
     }
@@ -34,6 +38,7 @@ declare global {
 declare namespace LocalJSX {
     interface AppButton {
         "iconPath"?: string;
+        "onLoginClicked"?: (event: AppButtonCustomEvent<void>) => void;
         "text"?: string;
     }
     interface AppHeader {

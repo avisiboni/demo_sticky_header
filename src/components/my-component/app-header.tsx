@@ -8,8 +8,11 @@ import { Component, h } from '@stencil/core';
 export class AppHeader {
   render() {
     return <div class="header sticky">
-      <app-button text="Press Me!" iconPath='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmzwxILy0Etyblqj1MLsCrwAtlBxaP9HMjeQ&usqp=CAU'></app-button>
-      <h2>My Header</h2>
+      <app-button text="איזור אישי" iconPath='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmzwxILy0Etyblqj1MLsCrwAtlBxaP9HMjeQ&usqp=CAU'></app-button>
+      <div class="app-name">
+        <span> הבורסה לניירות ערך תל אביב</span>
+        <span> Tel Avi Stock Exchange</span>
+      </div>
     </div>;
   }
 }

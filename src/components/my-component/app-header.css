@@ -1,4 +1,11 @@
+* {
+  font: normal normal normal 20px/25px Open Sans Hebrew;
+}
+body{
+  margin: 0;
+}
 .header {
+  display: flex;
   padding: 10px 16px;
   background: #182f7c 0% 0% no-repeat padding-box;
   border: 1px solid #182f7c;
@@ -6,7 +13,8 @@
   box-shadow: 0px 3px 20px #0d1f4514;
   border: 1px solid #182f7c;
   opacity: 1;
-  color:white;
+  color: white;
+  justify-content: space-between;
 }
 
 .sticky {
@@ -14,4 +22,8 @@
   position: sticky;
   top: 0;
   width: 100%;
+}
+.app-name {
+  display: flex;
+  flex-direction: column;
 }

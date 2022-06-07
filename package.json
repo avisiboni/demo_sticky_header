@@ -1,6 +1,6 @@
 {
-  "name": "sticky-header",
-  "version": "0.0.1",
+  "name": "avi_siboni_matrix_sticky-header",
+  "version": "0.0.5",
   "description": "A sticky header by Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
